@@ -49,8 +49,8 @@ After the data was preprocessed, we used the following parameters to compile, tr
 
 - Binned INCOME_AMT column
 - Created 5,821 total parameters, an decrease of 160 from the original of 5,981
-- Accuracy improved 0.13% from 72.33% to 72.42%
-- Loss was reduced by 2.10% from 58.08% to 56.86%
+- Accuracy is almost same slight decrease from 72.7% to 72.6%
+- Loss is almost same slight increase from 56.03% to 56.27%
 
 ### Optimization Attempt #2:
 
