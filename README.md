@@ -59,8 +59,8 @@ After the data was preprocessed, we used the following parameters to compile, tr
 - Removed SPECIAL_CONSIDERATIONS_Y column from features as it is redundant to SPECIAL_CONSIDERATIONS_N
 - Increased neurons to 100 for the first hidden layer and 50 for the second hidden layer
 - Created 8,801 total parameters, an increase of 2,820 from the original of 5,981
-- Accuracy decreased 0.11% from 72.33% to 72.24%
-- Loss increased by 1.75% from 58.08% to 59.10%
+- Accuracy decreased 0.11% from 72.7% to 72.303%
+- Loss increased from 56.03% to 58.6%
 
 ### Optimization Attempt #3:
 
