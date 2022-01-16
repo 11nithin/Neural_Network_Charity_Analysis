@@ -50,7 +50,7 @@ After the data was preprocessed, we used the following parameters to compile, tr
 - Binned INCOME_AMT column
 - Created 5,821 total parameters, an decrease of 160 from the original of 5,981
 - Accuracy is almost same slight decrease from 72.7% to 72.6%
-- Loss is almost same slight increase from 56.03% to 56.27%
+- Loss is almost same from 56.03% to 56.27%
 
 ### Optimization Attempt #2:
 
@@ -68,14 +68,11 @@ After the data was preprocessed, we used the following parameters to compile, tr
 - Removed SPECIAL_CONSIDERATIONS_Y column from features as it is redundant to SPECIAL_CONSIDERATIONS_N
 - Increased neurons to 125 for the first hidden layer and 50 for the second hidden layer
 - Created 11,101 total parameters, an increase of 5,120 from the original of 5,981
-- Accuracy increased 0.19% from 72.33% to 72.47%
-- Loss decreased by 1.82% from 58.08% to 57.02%
+- Accuracy remains almost same from 72.7% to 72.47%
+- Loss increased from 56.03% to 58.112
 
 ## Summary
-In summary, our model and various optimizations did not help to achieve the desired result of greater than 75%. With the variations of increasing the epochs, removing variables, adding a 3rd hidden layer (done offline in Optimization attempt #4) and/or increasing/decreasing the neurons, the changes were minimal and did not improve above 19 basis points. In reviewing other Machine Learning algorithms, the results did not prove to be any better. For example, Random Forest Classifier had a predictive accuracy rate of 70.80% which is a 2.11% decrease from the accuracy rate of the Deep Learning Neural Network model (72.33%).
+In summary, our model and various optimizations did not help to achieve the desired result of greater than 75%. With the variations of increasing the epochs, removing variables, adding a 3rd hidden layer (done offline in Optimization attempt #4) and/or increasing/decreasing the neurons, the changes were minimal. In reviewing other Machine Learning algorithms, the results did not prove to be any better. 
 
 Overall, Neural Networks are very intricate and would require experience through trial and error or many iterations to identify the perfect configuration to work with this dataset.
 
-## Resources
-- Software: Python 3.7.9, Anaconda 4.9.2 and Jupyter Notebooks 6.1.4
-- Libraries: Scikit-learn, Pandas, TensorFlow, Keras
