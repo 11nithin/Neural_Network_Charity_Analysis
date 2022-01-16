@@ -38,10 +38,10 @@ After the data was preprocessed, we used the following parameters to compile, tr
 - The initial model had a total of 5,981 parameters as a result of 43 inputs with 2 hidden layers and 1 output layer.
 
 
-- - The first hidden layer had 43 inputs, 80 neurons and 80 bias terms.
-- - The second hidden layer had 80 inputs (number of neurons from first hidden layer), 30 neurons and 30 bias terms.
-- - The output layer had 30 inputs (number of neurons from the second hidden layer), 1 neuron, and 1 bias term.
-- - Both the first and second hidden layers were activated using RELU - Rectified Linear Unit function. The output layer was activated using the Sigmoid function.
+   - The first hidden layer had 43 inputs, 80 neurons and 80 bias terms.
+   - The second hidden layer had 80 inputs (number of neurons from first hidden layer), 30 neurons and 30 bias terms.
+   - The output layer had 30 inputs (number of neurons from the second hidden layer), 1 neuron, and 1 bias term.
+   - Both the first and second hidden layers were activated using RELU - Rectified Linear Unit function. The output layer was activated using the Sigmoid function.
 
 -  The target performance for the accuracy rate is greater than 75%. The model that was created only achieved an accuracy rate of 72.33%
 
